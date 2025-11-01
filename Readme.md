@@ -26,11 +26,10 @@ Bu proje, YouTube kaynaklı içerik haberlerini toplayıp Telegram üzerinden bi
 
 ### Gerekli kütüphaneler
 
-- **libcurl** — HTTP istekleri için
-- **libmysqlclient** — MySQL veritabanı bağlantısı için
-- **libjson-c** — JSON verilerini işlemek için
-- **libxml-2.0** — XML/RSS ayrıştırma için
-- **pthread** — Çoklu iş parçacığı desteği için
+- **curl/curl.h** — HTTP istekleri için
+- **mysql/mysql.h** — MySQL veritabanı bağlantısı için
+- **json-c/json.h** — JSON verilerini işlemek için
+- **libxml/parser.h** — XML/RSS ayrıştırma için
 
 #### Ubuntu/Debian için kurulum:
 
