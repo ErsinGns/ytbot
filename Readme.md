@@ -24,6 +24,20 @@ Bu proje, YouTube kaynaklı içerik haberlerini toplayıp Telegram üzerinden bi
 - C derleyicisi (GCC/Clang) ve `make`.
 - Linux için en sorunsuz deneyim; Windows'ta derlemek ve çalıştırmak için WSL önerilir.
 
+### Gerekli kütüphaneler
+
+- **libcurl** — HTTP istekleri için
+- **libmysqlclient** — MySQL veritabanı bağlantısı için
+- **libjson-c** — JSON verilerini işlemek için
+- **libxml-2.0** — XML/RSS ayrıştırma için
+- **pthread** — Çoklu iş parçacığı desteği için
+
+#### Ubuntu/Debian için kurulum:
+
+```bash
+sudo apt-get update
+sudo apt-get install build-essential libcurl4-openssl-dev libmysqlclient-dev libjson-c-dev libxml2-dev
+```
 
 ## Derleme
 
